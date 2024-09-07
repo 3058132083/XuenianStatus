@@ -18,7 +18,7 @@ class MyPlugin(BasePlugin):
 
     # 当收到个人消息时触发
     @handler(PersonNormalMessageReceived)
-    time=time.strftime(format[%H%M, time.localtime()])
+    time = time.strftime(format[%H%M, time.localtime()])
     Hbps = random.random(40,70)
     Hbpn = random.random(65,120)
     Hbpq = random.random(135,170)
@@ -27,25 +27,25 @@ class MyPlugin(BasePlugin):
     Status='休眠'
     Hbp=Hbps
     elif (time >= 615 & time <=1155)
-        Status=StatusList[i=random.random(0,3)]
+        Status=StatusList[i = random.random(0,3)]
         if (i==2|i==3)
             Hbp=Hbpq
         else 
             Hbp=Hbpn
     elif (time >= 1155 & time <=1400)
-        Status=StatusList[i=random.random(1,3)]
+        Status=StatusList[i = random.random(1,3)]
         if (i==2|i==3)
             Hbp=Hbpq
         else 
             Hbp=Hbpn
     elif (time >= 1400 & time <=2130)
-        Status=StatusList[i=random.random(0,3)]
+        Status=StatusList[i = random.random(0,3)]
         if (i==2|i==3)
             Hbp=Hbpq
         else 
             Hbp=Hbpn
     elif (time >= 2130 & time <=2400)
-        Status=StatusList[i=random.random(1,3)]
+        Status=StatusList[i = random.random(1,3)]
         if (i==2|i==3)
             Hbp=Hbpq
         else 
